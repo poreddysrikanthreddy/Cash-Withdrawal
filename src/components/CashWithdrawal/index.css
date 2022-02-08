@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.cash-withdrawal-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cash-withdrawal-container {
+  width: 80%;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #150b3e;
+  max-width: 350px;
+  padding-top: 20px;
+}
+
+@media screen and (min_width: 768px) {
+  .cash-withdrawal-container {
+    width: 50%;
+    max-width: 450px;
+  }
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.user-initial-container {
+  display: flex;
+}
+.userName {
+  color: #d4d2db;
+  margin-left: 10px;
+}
+.user-balance-container {
+  display: flex;
+  justify-content: space-between;
+}
